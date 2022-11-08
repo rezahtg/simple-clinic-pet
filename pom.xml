@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.reza</groupId>
     <artifactId>simple-clinic-pet</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>simple-clinic-pet</name>
     <description>simple-clinic-pet</description>
     <properties>
@@ -50,8 +50,8 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:rezahtg/simple-clinic-pet.git</developerConnection>
-    <tag>simple-clinic-pet-0.0.1</tag>
-  </scm>
+        <url>https://github.com/rezahtg/simple-clinic-pet</url>
+        <connection>scm:git:https://github.com/rezahtg/simple-clinic-pet.git</connection>
+    </scm>
 
 </project>
