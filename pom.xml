@@ -50,8 +50,8 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:ssh://git@github.com:rezahtg/simple-clinic-pet.git</developerConnection>
-      <tag>simple-clinic-pet-0.0.1</tag>
+        <developerConnection>scm:git:git@github.com:rezahtg/simple-clinic-pet.git</developerConnection>
+    <tag>simple-clinic-pet-0.0.1</tag>
   </scm>
 
 </project>
