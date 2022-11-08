@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.reza</groupId>
     <artifactId>simple-clinic-pet</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.3</version>
     <name>simple-clinic-pet</name>
     <description>simple-clinic-pet</description>
     <properties>
@@ -44,6 +44,7 @@
                         <checkModificationExclude>**</checkModificationExclude>
                     </checkModificationExcludes>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
@@ -52,7 +53,7 @@
     <scm>
         <url>https://github.com/rezahtg/simple-clinic-pet</url>
         <connection>scm:git:https://github.com/rezahtg/simple-clinic-pet.git</connection>
-      <tag>simple-clinic-pet-0.0.2</tag>
+      <tag>simple-clinic-pet-0.0.3</tag>
   </scm>
 
 </project>
