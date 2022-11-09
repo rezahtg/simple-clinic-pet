@@ -2,9 +2,11 @@ package com.reza.simpleclinicpet.services.map;
 
 import com.reza.simpleclinicpet.model.Pet;
 import com.reza.simpleclinicpet.services.CrudService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
 
     @Override
